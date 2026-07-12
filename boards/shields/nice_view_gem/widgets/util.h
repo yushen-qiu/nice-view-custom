@@ -8,9 +8,7 @@
 
 #define BUFFER_SIZE 68
 #define BUFFER_OFFSET_MIDDLE -34
-#define BUFFER_OFFSET_PROFILE -119
 #define BUFFER_OFFSET_BOTTOM -129
-
 
 #define LVGL_BACKGROUND                                                                            \
     IS_ENABLED(CONFIG_NICE_VIEW_WIDGET_INVERTED) ? lv_color_black() : lv_color_white()
