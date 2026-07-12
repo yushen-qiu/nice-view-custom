@@ -7,7 +7,7 @@
 #define SCREEN_HEIGHT 160
 
 #define BUFFER_SIZE 68
-#define BUFFER_OFFSET_MIDDLE -32
+#define BUFFER_OFFSET_MIDDLE -36
 #define BUFFER_OFFSET_BOTTOM -129
 
 #define LVGL_BACKGROUND                                                                            \
