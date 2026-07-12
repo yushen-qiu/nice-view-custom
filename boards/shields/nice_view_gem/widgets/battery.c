@@ -11,7 +11,7 @@ static void draw_level(lv_obj_t *canvas, const struct status_state *state) {
     char text[10] = {};
 
     sprintf(text, "%i%%", state->battery);
-    lv_canvas_draw_text(canvas, 0, 1, 30, &label_left_dsc, text);
+    lv_canvas_draw_text(canvas, 0, 1, 40, &label_left_dsc, text);
 }
 
 static void draw_charging_level(lv_obj_t *canvas, const struct status_state *state) {
@@ -23,8 +23,8 @@ static void draw_charging_level(lv_obj_t *canvas, const struct status_state *sta
     char text[10] = {};
 
     sprintf(text, "%i%%", state->battery);
-    lv_canvas_draw_text(canvas, 0, 1, 22, &label_left_dsc, text);
-    lv_canvas_draw_img(canvas, 22, 0, &bolt, &img_dsc);
+    lv_canvas_draw_text(canvas, 0, 1, 34, &label_left_dsc, text);
+    lv_canvas_draw_img(canvas, 36, 3, &bolt, &img_dsc);
 }
 
 void draw_battery_status(lv_obj_t *canvas, const struct status_state *state) {
